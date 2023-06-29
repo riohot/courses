@@ -1,6 +1,6 @@
-# Title
+# Scratch
 
-Intro
+Week 1 - Introduction to Computer Science
 
 -
 -
