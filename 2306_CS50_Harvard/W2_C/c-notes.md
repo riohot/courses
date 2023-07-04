@@ -25,7 +25,8 @@ Do while loops
 
 -
 
-- Run C in VS Code
+## Run C in VS Code
+
 -
 
 ```bash
@@ -34,3 +35,12 @@ Do while loops
 ```
 
 Run Code: Ctrl + option/alt + n
+Code automatically compiles to working dir.
+
+## Run CS50.h in VS Code
+
+1. Download the CS50 source folder
+2. move contents of src folder to working dir.
+3. new .c file in the same folder
+4. compile via cc <filename.c> -o filename cs50.c
+5. run via ./hello
