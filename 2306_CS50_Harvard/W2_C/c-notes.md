@@ -22,3 +22,15 @@ Do while loops
 - Analyse why certain things are happening - i.e Where are the curly braces are why
 - IT helps to see Scratch blocks in regular code
 - A lot of code simply breaks down to conditionalities (if else...)
+
+-
+
+- Run C in VS Code
+-
+
+```bash
+  $ install homebrew
+  $ brew install mingw-w64
+```
+
+Run Code: Ctrl + option/alt + n
