@@ -25,3 +25,8 @@ Note:
 
 Paramters: variables in the function definition/declarion
 Arguments: variables in the function call
+
+-
+
+The term void before a function in C indicates that the function does not return a value.
+In C you need to explicitly state the data type so if there is nothing to return in the function you void it.
