@@ -1,8 +1,8 @@
-#include <stdio.h>
 #include <cs50.h>
-#include <stdbool.h>
+#include <stdio.h>
 
-bool isPrime(int num);
+void printPrime(int min int max);
+bool prime(int number);
 
 int main(void)
 {
@@ -10,47 +10,57 @@ int main(void)
     do
     {
         min = get_int("Minimum: ");
-    } 
+    }
     while (min < 1);
 
     int max;
     do
     {
         max = get_int("Maximum: ");
-    } 
-    while (max >= 101);
+    }
+    while (min >= max);
 
-    // for (int i = min; i < max; i++)
-    // {
-    //     if (i % i == 0 && i % 1 == 0)
-    //     {
-    //         printf("%i\n", i);
-    //     }
-    // }
+    printPrime();
 
+}
+
+// chained if, if, for...
+bool prime(int number)
+{
+    // a given
+    if (number <= 1)
+    {
+        return false;
+    }
+    // a given
+    if (number == 2 || number == 3)
+    {
+        return true;
+    }
+    // a given...
+    for (int i = 2; i < number; i++)
+    {
+        if (number % i == 0)
+        {
+            return false;
+        }
+    }
+    // anything else
+    return true;
+}
+
+void printPrime(int min int max);
+{
     for (int i = min; i <= max; i++)
     {
-        if (isPrime(i)) 
+        if (prime(i))
         {
             printf("%i\n", i);
         }
     }
 }
 
-bool isPrime(int num);
-    {
-        if (num < 2)
-        {
-            return false;
-        }
 
-        for (int i = 2; i * 1 <= num; i++)
-        {
-            if (num % 1 == 0)
-            {
-                return false;
-            }
-        }
-
-        return true;
-    }
+// prime takes a number which is i and says it its true print
+// prints(i) - basically takes i and runs it through a boolean
+// repeats
