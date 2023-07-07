@@ -7,7 +7,7 @@ int main(int argc, string argv[])
 
 }
 
-These two special arguments enable you to know what data the user provided at teh command line and how much data they provided,
+These two special arguments enable you to know what data the user provided at the command line and how much data they provided,
 
 - Argument COUNT - argc
   -- (can be named anything)
