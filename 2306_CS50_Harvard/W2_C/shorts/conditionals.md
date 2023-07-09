@@ -80,7 +80,7 @@ Else will only bind to the nearest if
     }
 ```
 
-## TERNARY OPERATOR (?:)
+## TERNARY OPERATOR (?:) (A modern replacement for if else)
 
 given example of if else
 
@@ -101,4 +101,17 @@ can be written as
 ```bash
     int x = (expr) ? 5 : 6
     // 5 = true, 6 = false
+```
+
+Think of ternary as asking a question ???
+
+e.g
+
+```bash
+    (invisible if)(score1 > score2 ? option 1 : option 2)
+
+
+    if theres more than two conditionals (3+...)
+
+    (invisible if)(score1 > score2) ? option 1 : (score1 condition) ? option 2 : option 3)
 ```
