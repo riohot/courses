@@ -25,8 +25,9 @@ int main(int argc, string argv[])
         {
             return 1;
         }
-        // check for duplicates - nested loop
         // convert all letters to upper or lower
+        // check for duplicates - nested loop
+        // loops through i, then all of j with respect to that I
         for (int j = i + 1; j < len; j++)
         {
             if ((argv[1][i]) == (argv[1][j]))
@@ -40,7 +41,7 @@ int main(int argc, string argv[])
     string plaintext = get_string("plaintext: ");
     string cipher = sub(plaintext, argv[1]);
     printf("ciphertext: %s\n", cipher);
-    return 0;
+    return 0;  
 }
 
 string sub(string word, string key)
