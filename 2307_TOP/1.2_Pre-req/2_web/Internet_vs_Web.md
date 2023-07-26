@@ -19,3 +19,7 @@ Router: Anywhere >=2 parts of the internet intersect there is a Router (these ro
 -
 
 DNS - Domain name SYSTEM
+
+Root name server >>
+TLD name servers >>
+Authoratative name servers
