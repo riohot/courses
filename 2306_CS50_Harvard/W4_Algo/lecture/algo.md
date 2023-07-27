@@ -6,7 +6,11 @@ Think of action in terms of cost (wrt to O notation list)
 Think in terms of best case and worst case for each algorithm
 
 WE use O (big O notation) to describe the upper bound of an algorithms time complexity
+
 The upper bound is the greatest number of steps is takes to complete
+
+- i.e our Algorithm will NEVER run slower than this
+
 So essentially, we are always rating algorithms by their slowest possible steps to completion
 OR rather how to runtime of the algorithm grows in relation to size of the input
 
