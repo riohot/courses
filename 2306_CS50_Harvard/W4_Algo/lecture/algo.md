@@ -1,15 +1,17 @@
 #Algorithms
 
 🖼 Understanding the ORDER (speed) of Algorithms given n added elements
-Omega notation - lower bound? How many steps early we finish
 Think of action in terms of cost (wrt to O notation list)
 Think in terms of best case and worst case for each algorithm
 
-WE use O (big O notation) to describe the upper bound of an algorithms time complexity
+WE use O (big O notation) to describe the upper bound of an algorithm's time complexity
 
 The upper bound is the greatest number of steps is takes to complete
 
 - i.e our Algorithm will NEVER run slower than this
+
+Omega - lower bound is the least number of steps it takes to completa
+Omega notation - lower bound? How many steps early we finish
 
 So essentially, we are always rating algorithms by their slowest possible steps to completion
 OR rather how to runtime of the algorithm grows in relation to size of the input
@@ -149,6 +151,11 @@ Ability of a function to call itself
         Merge sorted halves
 
 ```
+
+--
+
+- Bubble sort (O(n)) fastest throught sorted list but slowest through random list - ideal for already sorted lists
+- Selection (O(n^2)) fastest than bubble sort but slower through random
 
 CONCLUSION:
 

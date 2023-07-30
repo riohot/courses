@@ -31,5 +31,5 @@ Omega(n log n)
 
 --
 
-Faster at the expense of more memory as we have to create new ghost arrays to handle all the swapping.
-Once you understand recursion properly it helps sort an array that much faster
+- Faster at the expense of more memory as we have to create new ghost arrays to handle all the swapping.
+- Once you understand recursion properly it helps sort an array that much faster

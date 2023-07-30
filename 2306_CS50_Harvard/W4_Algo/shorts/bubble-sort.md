@@ -15,7 +15,7 @@ Builds array from Right to left (Largest down to smallest) opposite of selection
 
 WORST CASE AKA UPPER BOUND
 
-- The array is in reverse order, we have to "bubble" each of the n elements all the wya across the array
+- The array is in reverse order, we have to "bubble" each of the n elements all the way across the array
   and since we can only fully bubble one element into position per pass/iteration we must do this N times
 
 O(n^2)
