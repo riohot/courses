@@ -254,3 +254,8 @@ whatabout strings?
         printf("s: %s\n", s);
     }
 ```
+
+But then you have memory issues as you dont know how much user is going to input. This is why get_string is good in C
+
+👉 POINTERS can literally also point to a file on HF
+fopen(file, "a") "a" = append mode
