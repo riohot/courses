@@ -33,27 +33,19 @@ F is the biggest digit
 
 Every character is a byte.
 
-Human convention for communicating HEX
-
-\```bash
-0x0
-
-````
+Human convention for communicating HEX - 0x0
 
 Find the address where data lives at
 You can store the address in a variable
 
 ```bash
-    &
-
     &variable
-````
+```
 
 GO TO the address location
 
 ```bash
-    *
-
+    *variable
 ```
 
 //--------------------------------------------
@@ -77,8 +69,9 @@ datatype \*n; = declaring a pointer that will store an address of said variable 
 
 Pointers are typically 8-bit
 
-\*strings
-An array of chars
+```bash
+    *strings = An array of chars
+```
 
 Strings "" - shorthand for adding \0 at the end
 Chars '' - doesnt do that
